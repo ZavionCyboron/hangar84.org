@@ -2,19 +2,10 @@
     import { page } from '$app/stores';
 </script>
 
-<<<<<<< HEAD
-=======
 <svelte:head>
     <title>{$page.status} {$page.error.message} | Hangar 84</title>
     <meta content="{$page.status} {$page.error.message} | Hangar 84" property="og:title" />
     {#if $page.status === 404}
-        <script>
-            import {error} from "@sveltejs/kit";
-
-            throw error(200, {
-                message: 'Not found'
-            });
-        </script>
         <meta content="You shared a non-existant page. How awkward..." property="og:description" />
     {:else}
         <meta content="You shared a broken page. How very awkward..." property="og:description" />
@@ -23,7 +14,6 @@
     <meta content="#ff0000" data-react-helmet="true" name="theme-color" />
 </svelte:head>
 
->>>>>>> refs/remotes/origin/develop
 <div class="text-center py-8">
     <h1 class="text-6xl font-bold">{$page.status} {$page.error.message}</h1>
     <br />
