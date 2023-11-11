@@ -15,8 +15,10 @@
 </svelte:head>
 
 <div class="text-center py-8">
-    <h1 class="text-6xl font-bold">{$page.status} {$page.error.message}</h1>
+    <h1 class="text-6xl font-bold">{$page.status} — {$page.error.message}</h1>
     <br />
-    <h3 class="text-2xl">4xx = You broke it</h3>
-    <h3 class="text-2xl">5xx = I broke it</h3>
+    {#if $page.status === 404}
+        <p class="text-2xl">The resource you have tried to access does not exist.</p>
+        <p class="text-1xl">(or maybe that's what they want you to think! o_O)</p>
+    {/if}
 </div>
