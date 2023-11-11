@@ -6,7 +6,7 @@
     <title>{$page.status} {$page.error.message} | Hangar 84</title>
     <meta content="{$page.status} {$page.error.message} | Hangar 84" property="og:title" />
     {#if $page.status === 404}
-        <meta content="You shared a non-existant page. How awkward..." property="og:description" />
+        <meta content="You shared a non-existent page. How awkward..." property="og:description" />
     {:else}
         <meta content="You shared a broken page. How very awkward..." property="og:description" />
     {/if}
