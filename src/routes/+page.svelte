@@ -12,8 +12,8 @@
         <h3 class="text-2xl">Coming Soon</h3>
     </div>
     <div class="text-center align-middle py-8">
-        <label class="swap swap-flip text-9xl">
-            <input type="checkbox" />
+        <label class="swap swap-rotate text-9xl">
+            <input type="checkbox"/>
 
             <span class="swap-off">👽</span>
             <span class="swap-on">😺</span>
