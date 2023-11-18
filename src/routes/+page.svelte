@@ -1,13 +1,9 @@
 <svelte:head>
     <title>Home | Hangar 84</title>
-    <meta content="Home | Hangar 84" property="og:title" />
-    <meta content="Official website for Hangar 84, FRC Team 7271" property="og:description" />
-    <meta content="https://hangar84.org/" property="og:url" />
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color" />
-
-    <script>
-        let pageName = "Home";
-    </script>
+    <meta content="Home | Hangar 84" property="og:title"/>
+    <meta content="Official website for Hangar 84, FRC Team 7271" property="og:description"/>
+    <meta content="https://hangar84.org/" property="og:url"/>
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
 <div class="flex flex-col items-center py-16">
