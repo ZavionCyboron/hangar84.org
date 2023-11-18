@@ -53,10 +53,10 @@
 
 <div class="navbar bg-base-200">
     <div class="dropdown lg:hidden">
-        <label tabindex="0" class="btn btn-ghost no-animation">
+        <button tabindex="-1" class="btn btn-ghost no-animation">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-        </label>
-        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-300 rounded-box w-52">
+        </button>
+        <ul tabindex="-1" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-300 rounded-box w-52">
             {#each directory as dir}
                 {#if dir.sub == null && dir.link != null}
                     <li class="{currentPath === dir.link ? 'disabled bg-primary-500' : ''}"><a href="{dir.link}">{dir.name}</a></li>
