@@ -6,7 +6,7 @@
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
-<div class="flex flex-col items-center py-16">
+<div class="flex flex-col items-center mt-8 mb-16">
     <div class="shrink text-center flex flex-col space-y-4">
         <h1 class="text-6xl font-bold">Hangar 84</h1>
         <h3 class="text-2xl">Coming Soon</h3>
