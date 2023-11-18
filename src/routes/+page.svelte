@@ -8,7 +8,9 @@
 
 <div class="flex flex-col items-center mt-8 mb-16">
     <div class="shrink text-center flex flex-col space-y-4">
-        <h1 class="text-6xl font-bold">Hangar 84</h1>
+        <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
+            Hangar 84
+        </h1>
         <h3 class="text-2xl">Coming Soon</h3>
     </div>
     <div class="text-center align-middle py-8">
