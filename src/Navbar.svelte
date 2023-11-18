@@ -1,5 +1,5 @@
 <script>
-    export let currentPath;
+    export let currentPath = "";
 
     const directory = [
         {
