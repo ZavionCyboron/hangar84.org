@@ -15,7 +15,7 @@
         let toBounce = true;
         setTimeout(() => {
             if (toBounce) {
-                window.document.querySelector(".tooltip")?.classList.remove("animate-bounce", "tooltip");
+                window.document.querySelector(".tooltip")?.classList.remove("animate-bounce", "tooltip-open");
             }
         }, 2_500);
     });
