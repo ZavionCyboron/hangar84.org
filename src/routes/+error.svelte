@@ -14,7 +14,7 @@
     <meta content="#ff0000" data-react-helmet="true" name="theme-color" />
 </svelte:head>
 
-<div class="text-center py-8">
+<div class="flex flex-col text-center justify-center items-center py-8 space-y-4">
     <h1 class="text-6xl font-bold">{$page.status} — {$page.error.message}</h1>
     <br />
     {#if $page.status === 404}
