@@ -1,16 +1,16 @@
 <svelte:head>
-	<title>Potential-sponsors | Hangar 84</title>
-	<meta content="Potential-sponsors | Hangar 84" property="og:title"/>
-	<meta content="Potential-sponsors for Hangar 84, FRC Team 7271" property="og:description"/>
+	<title>Potential Sponsors | Hangar 84</title>
+	<meta content="Potential Sponsors | Hangar 84" property="og:title"/>
+	<meta content="Looking to sponsor Hangar 84? Find out how!" property="og:description"/>
 	<meta content="https://hangar84.org/potential-sponsors" property="og:url"/>
 	<meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
-<div class="flex flex-col items-center mt-8 mb-16 scroll-m-0">
-	<div class="shrink text-center flex flex-col space-y-6">
+<div class="flex flex-col items-center mt-8 mb-16">
+	<div class="shrink text-center flex flex-col space-y-4">
 		<h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
-			Potential sponsors
+			Potential Sponsors
 		</h1>
-		<h3 class="text-2xl text-center"> Coming soon</h3>
+		<h2 class="text-2xl">Coming soon</h2>
 	</div>
 </div>
