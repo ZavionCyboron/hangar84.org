@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Why Sponsor Us | Hangar 84</title>
+	<title>Blogs | Hangar 84</title>
 	<meta content="Why-Sponsor-Us | Hangar 84" property="og:title"/>
 	<meta content="Our reason as to why companies should sponsor Hangar 84, FRC Team 7271" property="og:description"/>
 	<meta content="https://hangar84.org/blog" property="og:url"/>
