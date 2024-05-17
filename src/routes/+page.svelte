@@ -11,14 +11,8 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Hangar 84
         </h1>
-        <h2 class="text-2xl">Coming soon</h2>
     </div>
-    <div class="text-center align-middle py-8">
-        <label class="swap swap-rotate text-9xl">
-            <input type="checkbox"/>
-
-            <span class="swap-off">👽</span>
-            <span class="swap-on">😺</span>
-        </label>
+    <div>
+        <img src="favicon.png" alt="Favicon hasn't appeared."/>
     </div>
 </div>
