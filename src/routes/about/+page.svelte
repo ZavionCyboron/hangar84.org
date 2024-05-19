@@ -4,11 +4,6 @@
     <meta content="Information about Hangar 84 and our goals." property="og:description"/>
     <meta content="https://hangar84.org/about" property="og:url"/>
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-    <style>
-        p {
-
-        }
-    </style>
 </svelte:head>
 
 <div class="flex flex-col items-center mt-8 mb-16">
@@ -17,7 +12,7 @@
             About Us
         </h1>
         <p class="pb-3 text-xl">
-            Hangar84 is a student led robotics competition team. We have gone to five competitions but our goal during
+            Hangar 84 is a student-led robotics competition team. We have gone to five competitions but our goal during
             these competitions is not win them but to allow the students to have fun and also learn and improve on the
             robot.
         </p>
