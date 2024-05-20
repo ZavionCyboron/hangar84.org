@@ -1,5 +1,5 @@
 <script>
-    import '../input.css';
+    import '../app.css';
     import Navbar from "../Navbar.svelte";
     import {page} from "$app/stores";
     import {onMount} from 'svelte';
