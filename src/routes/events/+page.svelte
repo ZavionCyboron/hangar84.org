@@ -11,7 +11,11 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Events
         </h1>
-        <h2 class="text-2xl">Coming soon</h2>
         <!-- TODO: Pull recent/current/upcoming event data from FIRST-oriented APIs. -->
+        <div>
+            <p>
+                There are currently no events.
+            </p>
+        </div>
     </div>
 </div>
