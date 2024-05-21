@@ -11,6 +11,9 @@
 		<h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
 			Potential Sponsors
 		</h1>
-		<h2 class="text-2xl">Coming soon</h2>
+		<div class="text-2xl flex flex-col items-center mt-4 mb-8">
+			<a href="https://hangar-84.monday.com/boards/4167895144"><u class="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-400 text-transparent bg-clip-text">
+				Potential Sponsors</u></a>
+		</div>
 	</div>
 </div>
