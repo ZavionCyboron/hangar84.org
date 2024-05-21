@@ -11,6 +11,8 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Blog
         </h1>
-        <h2 class="text-2xl">Coming soon</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vo9HBRpWLyA?si=i9LCvoaHGCOwnAru" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
