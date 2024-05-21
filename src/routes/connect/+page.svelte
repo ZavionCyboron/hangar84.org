@@ -11,6 +11,8 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Connect
         </h1>
-        <h2 class="text-2xl">Coming soon</h2>
+        <div>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBWSWnTtzKrHcQWQhvttNRbCDTXcPKGvvFjkvRVjxrGvcKKNbLZDKTBqNPBbShqLnZgflZ"><u class="text-2xl">Placeholder until Hangar 84 email is put into place</u></a>
+        </div>
     </div>
 </div>
