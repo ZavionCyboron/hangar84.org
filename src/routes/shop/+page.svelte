@@ -11,6 +11,10 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Shop
         </h1>
-        <h2 class="text-2xl">Coming soon</h2>
+        <!-- TODO: if we have merchandise place our merchandise and pricing below. Include an image of the merchandise -->
+        <div>
+            <img>
+            <h1 class="pb-3 text-3xl">No current merchandise for sale.</h1>
+        </div>
     </div>
 </div>
