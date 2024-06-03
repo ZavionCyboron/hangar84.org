@@ -11,6 +11,10 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Why Sponsor Us?
         </h1>
-        <h2 class="text-2xl">Coming soon</h2>
+        <div style="background-image: url('favicon.png');">
+            <p class="text-xl">
+                <!--put our reason for wanting other companies/organizations to sponsor us. Also give the company/organization benefits of being sponsored.-->
+            </p>
+        </div>
     </div>
 </div>
