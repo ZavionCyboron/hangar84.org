@@ -15,7 +15,7 @@
             <!-- content from our Monday.com Sponsorship CRM spreadsheet gets put below. -->
             <table style="border-collapse: collapse;">
                 <caption class="text-2xl">
-                    Current Sponsors
+                    Current Sponsors (2024-2025)
                 </caption>
                 <thead>
                     <th style="border: 1px solid lightgreen; padding: 3px;">Sponsor</th>
