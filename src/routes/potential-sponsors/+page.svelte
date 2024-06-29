@@ -13,28 +13,6 @@
 		</h1>
 	</div>
 </div>
-<div>
-	<form method="post" action="mailto:z.cyboron07@gmail.com">
-		<label>
-			Sponsor name:
-			<input type="text" name="sponsors" size="40" class="text-center"> <br>
-		</label>
-		<label>
-			<!-- put a name for the input text of amount of money they want to give -->
-			<input type="text" name="Sponsorship money" class="text-center"> <br>
-		</label>
-		<label>
-			Email:
-			<input type="email" name="company email" placeholder="you@yourdomanin.com" class="text-center"> <br>
-		</label>
-		<label>
-			Phone Number:
-			<input type="tel" name="mobile" placeholder="(xxx)-xxx-xxxx" class="text-center"> <br>
-		</label>
-		<label>
-			Date of submission
-			<input type="date" name="date" placeholder="06/09/2024" class="text-center"> <br>
-		</label>
-		<button type="submit" value="Form submitted" style="border-radius: 15px; box-shadow: 5px 5px 5px green;">Submit</button>
-	</form>
+<div class="flex flex-col items-center text-center mt-8 mb-16">
+	<a href="https://docs.google.com/forms/d/1be4_hUv80ExXWjI6jjLlzrm0pQbaZJBAq9KNosa34Fg/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Link to Potential Sponsorship form</a>
 </div>
