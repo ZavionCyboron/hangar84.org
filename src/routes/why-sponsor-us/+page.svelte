@@ -15,8 +15,8 @@
             <p class="text-xl">
                 <!--put our reason for wanting other companies/organizations to sponsor us. Also give the company/organization benefits of being sponsored.-->
             </p><br>
-            <a href="https://hangar84.org/potential-sponsors/" style="border: 1px solid green; border-radius: 15px" class="text-2xl">Potential Sponsors</a><br><br>
-            <a href="https://hangar84.org/current-sponsors/" style="border: 1px solid green; border-radius: 15px;" class="text-2xl">Current Sponsors</a><br>
+            <a href="https://hangar84.org/potential-sponsors/" style="box-shadow: 5px 5px 5px blue; border-radius: 15px" class="text-2xl">Potential Sponsors</a><br><br>
+            <a href="https://hangar84.org/current-sponsors/" style="box-shadow: 5px 5px 5px blue; border-radius: 15px;" class="text-2xl">Current Sponsors</a><br>
         </div>
     </div>
 </div>
