@@ -12,8 +12,8 @@
             Connect
         </h1>
         <!-- TODO: put all contact information for Hangar 84 below. -->
-        <div>
-            <a href=""><u></u></a>
+        <div class="text-2xl">
+            <a href="https://www.instagram.com/hangar84roswell/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Instagram</a><br>
         </div>
     </div>
 </div>
