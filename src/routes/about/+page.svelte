@@ -14,9 +14,9 @@
         <!-- Paragraph that tells viewers about us -->
         <p class="pb-3 text-xl">
             We are a student-led FRC robotics team at Early College High School in Roswell, New Mexico.
-            The year we started as a FRC robotics team was 2018 and have been to every competition besides 2021 and 2022 competitions.
-            At Hangar 84, we are open to any suggestions on how to improve not only our robot designs but also our source code and website.
-            We also accept anyone that wants to join our team. If you want to join our team give us an email at (insert email here).
+            We started our group in 2018 and we have competed in every FRC competition besides 2021 and 2022 competitions.
+            At Hangar 84, we are open to any suggestions on how to improve not only our robot designs, but also our source code and website.
+            We also accept anyone that wants to join our team. If you want to join our team send us an email at (insert email here).
         </p><br>
         <!-- put anything extra here such as images, videos, or links -->
     </div>
