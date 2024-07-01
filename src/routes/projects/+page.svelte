@@ -11,12 +11,10 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Current & Upcoming Projects
         </h1>
+        <!-- If we have projects remove "Currently No Projects." and put a text and an image of our current project(s). -->
         <div>
-            <div class="flex flex-col items-center mt-4 mb-8">
-                <img src="favicon.png" alt="Svelte"/>
-            </div>
-            <p>
-                Svelte project
+            <p class="text-2xl">
+                Currently No Projects.
             </p>
         </div>
     </div>
