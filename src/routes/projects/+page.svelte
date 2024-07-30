@@ -11,7 +11,7 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Current & Upcoming Projects
         </h1>
-        <!-- If we have projects remove "Currently No Projects." and put a text and an image of our current project(s). -->
+        <!--TODO: If we have projects remove "Currently No Projects." and put a text and an image of what our current project(s) look like.-->
         <div>
             <p class="text-2xl">
                 Currently No Projects.
