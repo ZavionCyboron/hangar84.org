@@ -18,4 +18,5 @@
 	<br>
 	<a href="https://hangar84.org/current-sponsors/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Go to Current Sponsorships Page</a><br>
 	<br>
+	<a href="https://hangar84.org/why-sponsor-us/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Go to Why Sponsor Us Page</a>
 </div>
