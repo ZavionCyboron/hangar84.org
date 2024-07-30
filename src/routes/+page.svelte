@@ -13,7 +13,8 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Hangar 84
         </h1>
-    <div class="h-max w-72 carousel rounded-box">
+        <!--Where you will put images of our competitions. These images are temporary until permission is granted. TODO: Get Permission from in the picture.-->
+     <div class="h-max w-72 carousel rounded-box">
         <div class="carousel-item w-full">
             <img src="frc-competition-1.jpg" alt="FRC competition didn't load." />
         </div>
@@ -47,7 +48,7 @@
         <div class="carousel-item w-full">
             <img src="frc-competition-12.jpg" alt="FRC competition didn't load." />
         </div><br>
-    </div>
+     </div>
     </div>
     <div class="text-xl mt-8 mb-16">
         <p>
