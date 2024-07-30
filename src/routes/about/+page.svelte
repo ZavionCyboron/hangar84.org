@@ -18,7 +18,7 @@
             At Hangar 84, we are open to any suggestions on how to improve not only our robot designs, but also our source code and website.
             We also accept anyone that wants to join our team. If you want to join our team send us an email at
             <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSKhbwcTxZpkSmmnwVrZLtjzjKZqkDjCCMprXSMLnqcWTWFSTCxZffLGwXZnhhrLwbNsSVCT">
-                <p class="font-bold bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400 inline-block text-transparent bg-clip-text">hanger84robotics@gmail.com</p></a>
+                <p class="font-bold bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400 inline-block text-transparent bg-clip-text">hanger84robotics@gmail.com</p></a>.
         </p><br>
         <!--put anything extra here such as images, videos, or links-->
     </div>
