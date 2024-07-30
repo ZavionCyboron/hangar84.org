@@ -13,7 +13,6 @@
         </h1>
         <!-- TODO: if we have merchandise place our merchandise and pricing below. Include an image of the merchandise -->
         <div>
-            <img>
             <h1 class="pb-3 text-3xl">No current merchandise for sale.</h1>
         </div>
     </div>
