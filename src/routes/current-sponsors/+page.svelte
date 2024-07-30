@@ -11,9 +11,9 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             Current Sponsors
         </h1>
-        <div class="flex flex-col items-center mt-4 mb-8">
-            <!--The link is an embedded image of our Sponsorship CRM spreadsheet-->
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVtESnxHFUf-VPpHYFMNPjCdv8Uddo7OpUh55gqYbkUa_vU2dHXWmvJJvCdCvkWj-GsO3CGeONkCsu/pubhtml?widget=true&amp;headers=false"></iframe>
+        <div class="flex flex-col items-center mt-4 mb-8 text-2xl">
+            <!--The link leads to our Sponsorship CRM spreadsheet-->
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVtESnxHFUf-VPpHYFMNPjCdv8Uddo7OpUh55gqYbkUa_vU2dHXWmvJJvCdCvkWj-GsO3CGeONkCsu/pubhtml"><u style="text-decoration-color: blue;">Current Sponsors Spreadsheet</u></a>
         </div>
     </div>
 </div>
