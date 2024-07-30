@@ -13,6 +13,7 @@
         </h1>
         <!-- TODO: put all contact information for Hangar 84 below. -->
         <div class="text-2xl">
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCKHQdLZhsDpDKBNrDqmVWdHBjrwDCQHPXwsRsccVLQRqTXsTpvwrTQFKZQwGNzzqVhrvkSq" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Gmail</a><br>
             <a href="https://www.instagram.com/hangar84roswell/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Instagram</a><br>
         </div>
     </div>
