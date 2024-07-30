@@ -14,5 +14,6 @@
 	</div>
 </div>
 <div class="flex flex-col items-center text-center mt-8 mb-16">
-	<a href="https://docs.google.com/forms/d/1be4_hUv80ExXWjI6jjLlzrm0pQbaZJBAq9KNosa34Fg/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Link to Potential Sponsorship form</a>
+	<a href="https://docs.google.com/forms/d/1HINgywZA8gwL-AMQ4-c5LUtfMb6rbdrcI44C4MjllUg/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Link to Potential Sponsorship form</a><br>
+	<br>
 </div>
