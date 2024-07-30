@@ -11,7 +11,7 @@
         <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
             About Us
         </h1>
-        <!--Paragraph that tells viewers about us-->
+        <!--Paragraph that tells viewers about what we do, how to contact us, and what we've done.-->
         <p class="pb-3 text-xl">
             We are a student-led FRC robotics team at Early College High School in Roswell, New Mexico.
             We started our group in 2018 and we have competed in every FRC competition besides 2021 and 2022 competitions.
