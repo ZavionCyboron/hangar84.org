@@ -12,24 +12,8 @@
             Current Sponsors
         </h1>
         <div class="flex flex-col items-center mt-4 mb-8">
-            <!-- content from our Monday.com Sponsorship CRM spreadsheet gets put below. -->
-            <table style="border-collapse: collapse;">
-                <caption class="text-2xl">
-                    Current Sponsors (2024-2025)
-                </caption>
-                <thead>
-                    <th style="border: 1px solid lightgreen; padding: 3px;">Sponsor</th>
-                    <th style="border: 1px solid lightgreen;">Phone Number</th>
-                    <th style="border: 1px solid lightgreen;">Email</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="font-serif" style="text-align: center; border: 1px solid lightgreen; padding: 5px;">Pecos Valley Telecommunications</td>
-                        <td style="text-align: center; width: 200px; border: 1px solid lightgreen;">(575)-624-7590</td>
-                        <td style="text-align: justifiy; width: 200px; border: 1px solid lightgreen;">pvtcsrs@pvt.com</td>
-                    </tr>
-                </tbody>
-            </table>
+            <!--The link is an embedded image of our Sponsorship CRM spreadsheet-->
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVtESnxHFUf-VPpHYFMNPjCdv8Uddo7OpUh55gqYbkUa_vU2dHXWmvJJvCdCvkWj-GsO3CGeONkCsu/pubhtml?widget=true&amp;headers=false"></iframe>
         </div>
     </div>
 </div>
