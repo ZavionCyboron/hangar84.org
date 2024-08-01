@@ -13,7 +13,10 @@
         </h1>
         <div class="flex flex-col items-center mt-4 mb-8 text-2xl">
             <!--The link leads to our Sponsorship CRM spreadsheet-->
-            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVtESnxHFUf-VPpHYFMNPjCdv8Uddo7OpUh55gqYbkUa_vU2dHXWmvJJvCdCvkWj-GsO3CGeONkCsu/pubhtml"><u style="text-decoration-color: blue;">Current Sponsors Spreadsheet</u></a>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVtESnxHFUf-VPpHYFMNPjCdv8Uddo7OpUh55gqYbkUa_vU2dHXWmvJJvCdCvkWj-GsO3CGeONkCsu/pubhtml"><u style="text-decoration-color: blue;">Current Sponsors Spreadsheet</u></a><br>
+            <br>
+            <a href="https://hangar84.org/potential-sponsors/"><u style="text-decoration-color: blue;">Potential Sponsors</u></a><br>
+            Click this link if you want to become a sponsor.
         </div>
     </div>
 </div>
