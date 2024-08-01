@@ -12,8 +12,9 @@
             Shop
         </h1>
         <!-- TODO: if we have merchandise place our merchandise and pricing below. Include an image of the merchandise -->
-        <div>
+        <div class="pb-3 text-3xl">
             <h1 class="pb-3 text-3xl">No current merchandise for sale.</h1>
+            <!--delete comment once we have merchandise <a href="https://docs.google.com/forms/d/1q88pjXzL34pmocLFPsKd-tj2eJ99LU8z-cfvkXXPAE8"><u style="text-decoration-color: blue;">Link to Shop</u></a>-->
         </div>
     </div>
 </div>
