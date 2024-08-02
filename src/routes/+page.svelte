@@ -56,9 +56,7 @@
         </p><br>
     </div>
 </div>
-<!--delete comment to open the GitHub link.
 <div class="text-3xl text-right">
-    TODO: Change the text in parentheses to a comment after deleting the comment to open the link up. (If possible add the Github image as the clickable link instead of the text. The image will already be in the static folder)
-    <a href="https://github.com/Hangar-84/hangar84.org"><u style="text-decoration-color: blue;">GitHub</u></a>
+    <!--If possible add the Github image as the clickable link instead of the text. The image will already be in the static folder-->
+    <!--delete the comment to get the link for GitHub working. <a href="https://github.com/Hangar-84/hangar84.org"><u style="text-decoration-color: blue;">GitHub</u></a>-->
 </div>
--->
