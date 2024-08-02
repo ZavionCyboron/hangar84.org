@@ -14,6 +14,9 @@
         <!-- TODO: Pull recent/current/upcoming event data from FIRST-oriented APIs. -->
         <div>
             <p>
+                <!--Delete comment and "There are currently no events." once we get FRC events
+                <a href="https://frc-events.firstinspires.org/team/7271" target="_blank"><u style="text-decoration-color: blue;>7271 FRC Events</u></a>
+                -->
                 There are currently no events.
             </p>
         </div>
