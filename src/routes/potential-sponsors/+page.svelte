@@ -14,7 +14,7 @@
 	</div>
 </div>
 <div class="flex flex-col items-center text-center mt-8 mb-16">
-	<a href="https://docs.google.com/forms/d/1HINgywZA8gwL-AMQ4-c5LUtfMb6rbdrcI44C4MjllUg/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Link to Potential Sponsorship form</a><br>
+	<a href="https://docs.google.com/forms/d/1HINgywZA8gwL-AMQ4-c5LUtfMb6rbdrcI44C4MjllUg/" target="_blank" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Link to Potential Sponsorship form</a><br>
 	<br>
 	<a href="https://hangar84.org/current-sponsors/" style="box-shadow: 5px 5px 5px 5px blue; border-radius: 15px">Go to Current Sponsorships Page</a><br>
 	<br>
