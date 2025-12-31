@@ -17,6 +17,10 @@
                     Hangar 84 Robotics
                 </h1>
 
+                <p class="mt-2 text-4xl text-gray-400 font-semibold tracking-wide">
+                    FRC Team 7271
+                </p>
+
                 <p class="mt-6 text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">
                     A student-led FIRST Robotics Competition (FRC) team building competitive robots
                     and real-world engineering skills through design, software, and iteration.
