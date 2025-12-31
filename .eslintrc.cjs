@@ -1,20 +1,27 @@
 module.exports = {
 	root: true,
-	parser: '@typescript-eslint/parser',
-	extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
-	plugins: ['svelte3', '@typescript-eslint'],
-	ignorePatterns: ['*.cjs'],
-	overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
-	settings: {
-		'svelte3/typescript': () => require('typescript')
-	},
+	extends: [
+		"eslint:recommended",
+		"plugin:svelte/recommended",
+		// If you use TS:
+		"plugin:@typescript-eslint/recommended"
+	],
+	parser: "svelte-eslint-parser",
 	parserOptions: {
-		sourceType: 'module',
-		ecmaVersion: 2020
+		parser: "@typescript-eslint/parser",
+		extraFileExtensions: [".svelte"],
+		sourceType: "module"
 	},
-	env: {
-		browser: true,
-		es2017: true,
-		node: true
-	}
+	overrides: [
+		{
+			files: ["*.svelte"],
+			rules: {
+				// This is the one that often triggers "missing-declaration" on transition directives
+				"no-undef": "off",
+
+				// If you still get unused-vars warnings for transitions:
+				"@typescript-eslint/no-unused-vars": "off"
+			}
+		}
+	]
 };
