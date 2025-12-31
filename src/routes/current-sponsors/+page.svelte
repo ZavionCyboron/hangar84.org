@@ -6,13 +6,14 @@
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 <script lang="ts">
-
+    import { fly } from "svelte/transition";
+    import { sectionIn, cardIn } from "$lib/motion";
 </script>
 
 <main class="background-color">
     <div class="flex flex-col items-center mb-16">
         <div class="shrink text-center flex flex-col space-y-12">
-            <section class="max-w-4xl mx-auto">
+            <section class="max-w-4xl mx-auto" in:fly={sectionIn(120)}>
                 <h1 class="pb-3 text-6xl font-bold heading-gradient">
                     Current Sponsors
                 </h1>
@@ -23,7 +24,7 @@
                 </p>
             </section>
 
-            <section class="mt-16 max-w-4xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left">
+            <section class="mt-16 max-w-4xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left" in:fly={sectionIn(180)}>
                 <h2 class="text-2xl font-semibold heading-gradient">How We Recognize Sponsors</h2>
 
                 <ul class="mt-4 space-y-2 text-gray-300 list-disc list-inside">
@@ -35,7 +36,7 @@
             </section>
 
 
-            <section class="max-w-3xl mx-auto">
+            <section class="max-w-3xl mx-auto" in:fly={sectionIn(220)}>
                 <div class="max-w-4xl mx-auto rounded-xl bg-gray-900 p-10 shadow-lg">
 
                     <h2 class="text-2xl font-bold heading-gradient">
