@@ -10,10 +10,10 @@
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
 </script>
-<main class="min-h-screen bg-gray-950 text-white">
-    <div class="flex flex-col items-center text-center mt-8 mb-16">
+<main class="background-color">
+    <div class="flex flex-col items-center text-center mb-16">
         <div class="shrink text-center flex flex-col space-y-4">
-            <section class="mt-20 text-center flex flex-col items-center" in:fly={sectionIn(120)}>
+            <section class="mt-20 max-w-4xl mx-auto" in:fly={sectionIn(120)}>
                 <h1 class="pb-3 text-6xl font-bold heading-gradient">
                     About Us
                 </h1>

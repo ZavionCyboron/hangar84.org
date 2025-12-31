@@ -62,7 +62,7 @@
     };
 </script>
 
-<main class="min-h-screen bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white">
+<main class="background-color">
     <div class="mx-auto max-w-7xl px-6 py-16 text-center">
         <section class="max-w-3xl mx-auto" in:fly={sectionIn(120)}>
             <h1 class="block text-6xl leading-tight heading-gradient">Events</h1>

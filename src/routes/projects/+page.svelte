@@ -52,7 +52,7 @@
 
 </script>
 
-<main class="min-h-screen bg-gray-950 text-white">
+<main class="background-color">
 
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">
         <section class="max-w-xl mx-auto" in:fly={sectionIn(120)}>
