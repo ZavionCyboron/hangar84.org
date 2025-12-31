@@ -18,6 +18,9 @@
     <h1 class="text-6xl font-bold">{$page.status} {$page.error.message}</h1>
     <br />
     {#if $page.status === 404}
-        <p class="text-2xl">The resource you have tried to access does not exist.</p>
+        <div>
+            <p class="text-2xl">The resource you have tried to access does not exist.</p>
+            <p class="text-1xl">(or maybe that's what they want you to think! o_O)</p>
+        </div>
     {/if}
 </div>
