@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
     <title>About | Hangar 84</title>
     <meta content="About | Hangar 84" property="og:title"/>
@@ -8,10 +5,15 @@
     <meta content="https://hangar84.org/about" property="og:url"/>
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
+
+<script lang="ts">
+    import { fly } from "svelte/transition";
+    import { sectionIn } from "$lib/motion";
+</script>
 <main class="min-h-screen bg-gray-950 text-white">
     <div class="flex flex-col items-center text-center mt-8 mb-16">
         <div class="shrink text-center flex flex-col space-y-4">
-            <section class="mt-20 text-center flex flex-col items-center">
+            <section class="mt-20 text-center flex flex-col items-center" in:fly={sectionIn(120)}>
                 <h1 class="pb-3 text-6xl font-bold heading-gradient">
                     About Us
                 </h1>
@@ -35,7 +37,7 @@
                 </p>
             </section>
 
-            <section class="mt-20 text-center flex flex-col items-center">
+            <section class="mt-20 text-center flex flex-col items-center" in:fly={sectionIn(180)}>
 
                 <h2 class="mt-20 text-3xl font-bold heading-gradient">
                     Our Mission
@@ -48,7 +50,7 @@
                 </p>
             </section>
 
-            <section class="mt-20 text-center flex flex-col items-center">
+            <section class="mt-20 text-center flex flex-col items-center" in:fly={sectionIn(240)}>
                 <!--put anything extra here such as images, videos, or links-->
                 <div class="mt-10 py-10 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl">
                     <!-- Image -->
@@ -76,7 +78,7 @@
                 </div>
             </section>
 
-            <section class="mt-20 text-center flex flex-col items-center">
+            <section class="mt-20 text-center flex flex-col items-center" in:fly={sectionIn(300)}>
                 <h2 class="mt-10 mb-4 text-3xl font-bold heading-gradient">
                     Featured Project
                 </h2>
@@ -109,7 +111,7 @@
                 </div>
             </section>
 
-            <section class="mt-20 text-center flex flex-col items-center">
+            <section class="mt-20 text-center flex flex-col items-center" in:fly={sectionIn(360)}>
                 <h2 class="mt-20 text-3xl font-bold heading-gradient">
                     Connect With Us
                 </h2>

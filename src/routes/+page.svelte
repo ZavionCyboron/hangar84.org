@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
     <title>Home | Hangar 84</title>
     <meta content="Home | Hangar 84" property="og:title"/>
@@ -9,7 +6,12 @@
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
-<main class="min-h-screen bg-gray-950 text-white">
+<script lang="ts">
+    import { fly } from "svelte/transition";
+    import { sectionIn } from "$lib/motion";
+</script>
+
+<main class="min-h-screen bg-gray-950 text-white" in:fly={sectionIn(120)}>
         <div class="mx-auto max-w-6xl px-6 py-16 text-center">
             <!-- HERO -->
             <section class="text-center flex flex-col items-center">
@@ -45,7 +47,7 @@
                 </div>
             </section>
         <!-- HIGHLIGHTS -->
-        <section class="flex flex-col items-center">
+        <section class="flex flex-col items-center" in:fly={sectionIn(180)}>
             <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
                 <div class="rounded-xl bg-gray-900 p-6 shadow-lg">
                     <p class="text-2xl">🤖</p>
@@ -82,7 +84,7 @@
         </section>
 
         <!-- MEDIA -->
-        <section class="text-center flex flex-col items-center">
+        <section class="text-center flex flex-col items-center" in:fly={sectionIn(220)}>
             <h2 class="mt-20 text-3xl font-bold heading-gradient">See the Robot</h2>
             <p class="mt-4 text-gray-300 max-w-3xl mx-auto">
                 Build progress, drive testing, and real-world iteration.
@@ -114,7 +116,7 @@
         </section>
 
         <!-- FEATURED PROJECT -->
-        <section class="text-center flex flex-col items-center">
+        <section class="text-center flex flex-col items-center" in:fly={sectionIn(280)}>
             <h2 class="mt-20 text-3xl font-bold heading-gradient">Featured Project</h2>
 
             <div class="mt-8 max-w-4xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left">
@@ -152,7 +154,7 @@
         </section>
 
         <!-- CTA -->
-            <section class="text-center flex flex-col items-center">
+            <section class="text-center flex flex-col items-center" in:fly={sectionIn(320)}>
                 <div class="mt-20 max-w-4xl mx-auto rounded-xl bg-gray-900 p-10 shadow-lg">
                     <h2 class="text-3xl font-bold heading-gradient">Want to get involved?</h2>
                     <p class="mt-4 text-gray-300">

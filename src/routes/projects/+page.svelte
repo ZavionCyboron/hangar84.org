@@ -6,7 +6,10 @@
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
-<script>
+<script lang="ts">
+    import { fly } from "svelte/transition";
+    import { sectionIn } from "$lib/motion";
+
     const projects = [
         {
             title: "2025-Robot",
@@ -52,32 +55,36 @@
 <main class="min-h-screen bg-gray-950 text-white">
 
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">
-        <h1 class="block text-6xl leading-tight heading-gradient">
-            Projects
-        </h1>
-        <p class="mt-4 text-lg text-gray-300 max-w-3xl mx-auto">
-            What we’re building right now — and what we’re planning next.
-        </p>
+        <section class="max-w-xl mx-auto" in:fly={sectionIn(120)}>
+            <h1 class="block text-6xl leading-tight heading-gradient">
+                Projects
+            </h1>
+            <p class="mt-4 text-lg text-gray-300 max-w-3xl mx-auto">
+                What we’re building right now — and what we’re planning next.
+            </p>
+        </section>
 
         <!-- Tabs -->
-        <div class="mt-10 flex justify-center gap-3">
-            {#each ["Current", "Upcoming", "Completed"] as tab}
-                <button
-                        type="button"
-                        class="px-5 py-2 rounded-xl font-semibold transition
-        {active === tab ? 'bg-green-500 text-black' : 'bg-gray-800 text-white hover:bg-gray-700'}"
-                        on:click={() => (active = tab)}
-                >
-                    {tab}
-                </button>
-            {/each}
-        </div>
+        <section class="max--w-xl mx-auto" in:fly={sectionIn(180)}>
+            <div class="mt-10 flex justify-center gap-3">
+                {#each ["Current", "Upcoming", "Completed"] as tab}
+                    <button
+                            type="button"
+                            class="px-5 py-2 rounded-xl font-semibold transition
+            {active === tab ? 'bg-green-500 text-black' : 'bg-gray-800 text-white hover:bg-gray-700'}"
+                            on:click={() => (active = tab)}
+                    >
+                        {tab}
+                    </button>
+                {/each}
+            </div>
+        </section>
 
         {#if filteredProjects.length === 0}
             <p class="mt-12 text-gray-400">No {active.toLowerCase()} projects yet — check back soon.</p>
         {:else}
             <!-- Grid -->
-            <section class="mt-12">
+            <section class="mt-12 max-w-4xl mx-auto" in:fly={sectionIn(220)}>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
                     {#each filteredProjects as p}
                         <div class="rounded-xl bg-gray-900 p-6 shadow-lg">
@@ -126,7 +133,7 @@
 
 
         <!-- CTA -->
-        <section class="text-center flex flex-col items-center">
+        <section class="max-w-4xl mx-auto" in:fly={sectionIn(300)}>
             <div class="mt-20 max-w-4xl rounded-xl bg-gray-900 p-10 shadow-lg">
                 <h2 class="text-3xl font-bold">Want to collaborate?</h2>
                 <p class="mt-4 text-gray-300">
