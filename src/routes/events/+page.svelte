@@ -7,10 +7,8 @@
 </svelte:head>
 
 <script lang="ts">
-    import { fly as flyTransition } from "svelte/transition";
-    import { cubicOut } from "svelte/easing";
-
-    const EASE = cubicOut;
+    import { fly } from "svelte/transition";
+    import { sectionIn, cardIn } from "$lib/motion";
 
     type TeamEvent = {
         name: string;
@@ -66,7 +64,7 @@
 
 <main class="min-h-screen bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white">
     <div class="mx-auto max-w-7xl px-6 py-16 text-center">
-        <section class="max-w-3xl mx-auto" in:flyTransition={{ y: 12, duration: 450, delay: 120, easing: EASE, opacity: 0 }}>
+        <section class="max-w-3xl mx-auto" in:fly={sectionIn(120)}>
             <h1 class="block text-6xl leading-tight heading-gradient">Events</h1>
 
             <h2 class="mt-4 text-2xl font-semibold heading-gradient">Team Meetings</h2>
@@ -92,7 +90,7 @@
             </p>
         </section>
 
-        <section class="max-w-3xl mx-auto"  in:flyTransition={{ y: 12, duration: 450, delay: 120, easing: EASE, opacity: 0 }}>
+        <section class="max-w-3xl mx-auto"  in:fly={sectionIn(180)}>
             <div class="mt-10 h-px w-24 mx-auto bg-gray-700"></div>
             <h2 class="mt-8 text-3xl font-bold heading-gradient">
                 2026 FRC Season Events
@@ -105,7 +103,7 @@
             <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
                 {#each events as e, i}
                     <article class="rounded-xl bg-gray-900 p-6 shadow-lg"
-                             in:flyTransition={{ y: 12, duration: 450, delay: 120 + i * 100, easing: EASE, opacity: 0 }}
+                             in:fly={cardIn(i)}
                     >
                         <div class="flex items-start justify-between gap-4">
                             <h3 class="text-xl font-semibold heading-gradient">{e.name}</h3>
@@ -156,7 +154,7 @@
             </div>
         </section>
 
-        <section class="max-w-3xl mx-auto" in:flyTransition={{ y: 12, duration: 450, delay: 120, easing: EASE, opacity: 0 }}>
+        <section class="max-w-3xl mx-auto" in:fly={sectionIn(160)}>
             <div class="mt-16 rounded-xl bg-gray-900 p-8 shadow-lg text-left">
                 <h3 class="text-xl font-semibold text-white">Want to see everything?</h3>
                 <p class="mt-2 text-gray-300">
