@@ -23,16 +23,16 @@
             link: null,
             sub: [
                 {
+                    name: "Why Sponsor Us",
+                    link: "/why-sponsor-us"
+                },
+                {
                     name: "Potential Sponsors",
                     link: "/potential-sponsors"
                 },
                 {
                     name: "Current Sponsors",
                     link: "/current-sponsors"
-                },
-                {
-                    name: "Why Sponsor Us",
-                    link: "/why-sponsor-us"
                 }
             ]
         },
