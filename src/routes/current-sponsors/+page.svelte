@@ -7,7 +7,7 @@
 </svelte:head>
 <script lang="ts">
     import { fly } from "svelte/transition";
-    import { sectionIn, cardIn } from "$lib/motion";
+    import { sectionIn } from "$lib/motion";
 </script>
 
 <main class="background-color">
