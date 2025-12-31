@@ -4,7 +4,10 @@
 
 html, body {
     height: 100%;
-    @apply min-h-screen bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white
+    .background-color{
+        @apply min-h-screen bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white
+    }
+
 }
 
 @layer components {
