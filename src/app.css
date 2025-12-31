@@ -1,4 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind typography;
+
+html, body {
+    height: 100%;
+    .background-color{
+        @apply min-h-screen bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white
+    }
+
+}
+
+@layer components {
+    .heading-gradient {
+        @apply bg-gradient-to-r from-green-400 via-green-500 to-green-400
+        text-transparent bg-clip-text font-bold;
+    }
+}
