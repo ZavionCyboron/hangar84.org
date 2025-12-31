@@ -17,7 +17,7 @@
                     Hangar 84 Robotics
                 </h1>
 
-                <p class="mt-2 text-4xl text-gray-400 font-semibold tracking-wide">
+                <p class="mt-6 text-4xl text-gray-400 font-semibold tracking-wide">
                     FRC Team 7271
                 </p>
 
