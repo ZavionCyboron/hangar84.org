@@ -137,7 +137,7 @@
 
                 <div class="mt-6 flex flex-col sm:flex-row gap-4">
                     <a
-                      href="https://github.com/Hangar-84"
+                      href="https://github.com/Hangar-84/RobotMerge-Kt"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="inline-block px-6 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 transition font-semibold"
