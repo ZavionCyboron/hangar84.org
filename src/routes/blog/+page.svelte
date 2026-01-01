@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
     <title>Blog | Hangar 84</title>
     <meta content="Blog | Hangar 84" property="og:title"/>
@@ -9,10 +6,15 @@
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
+<script lang="ts">
+    import { fly } from "svelte/transition";
+    import { sectionIn } from "$lib/motion";
+</script>
+
 <main class="background-color text-white">
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">
         <!-- Hero -->
-        <section class="max-w-4xl mx-auto">
+        <section class="max-w-4xl mx-auto" in:fly={sectionIn(120)}>
             <h1 class="block text-6xl leading-tight heading-gradient">Blog</h1>
 
             <p class="mt-6 text-lg text-gray-300 max-w-3xl mx-auto">
@@ -22,7 +24,7 @@
         </section>
 
         <!-- Featured video -->
-        <section class="mt-16 max-w-5xl mx-auto text-left">
+        <section class="mt-16 max-w-5xl mx-auto text-left" in:fly={sectionIn(180)}>
             <div class="rounded-xl bg-gray-900 p-8 shadow-lg">
                 <div class="flex flex-col gap-2">
                     <h2 class="text-2xl font-semibold heading-gradient">Featured: 2024 Season Video
@@ -65,7 +67,7 @@
         </section>
 
         <!-- Coming soon -->
-        <section class="mt-16">
+        <section class="mt-16" in:fly={sectionIn(220)}>
             <div class="max-w-5xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left">
                 <h2 class="text-2xl font-semibold heading-gradient">Coming Soon</h2>
 
@@ -84,7 +86,7 @@
         </section>
 
         <!-- CTA -->
-        <section class="mt-16 text-center">
+        <section class="mt-16 text-center" in:fly={sectionIn(280)}>
             <div class="max-w-5xl mx-auto rounded-xl bg-gray-900 p-10 shadow-lg">
                 <h2 class="text-3xl font-bold heading-gradient">Stay Updated</h2>
                 <p class="mt-4 text-gray-300">

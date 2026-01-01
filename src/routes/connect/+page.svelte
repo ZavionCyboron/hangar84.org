@@ -7,12 +7,14 @@
 </svelte:head>
 
 <script lang="ts">
+    import { fly } from "svelte/transition";
+    import { sectionIn } from "$lib/motion";
 </script>
 
 <main class="background-color text-white">
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">
         <!-- Hero -->
-        <section class="max-w-4xl mx-auto">
+        <section class="max-w-4xl mx-auto" in:fly={sectionIn(120)}>
             <h1 class="block text-6xl leading-tight heading-gradient">Connect</h1>
             <p class="mt-6 text-lg text-gray-300 max-w-3xl mx-auto">
                 Want to reach Hangar 84 (FRC Team 7271)? Use the team email for most inquiries, or contact our mentor/technical
@@ -21,7 +23,7 @@
         </section>
 
         <!-- Contact cards -->
-        <section class="mt-16">
+        <section class="mt-16" in:fly={sectionIn(180)}>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
                 <!-- Team email -->
                 <article class="rounded-xl bg-gray-900 p-8 shadow-lg">
@@ -93,7 +95,7 @@
         </section>
 
         <!-- What to contact us about -->
-        <section class="mt-16">
+        <section class="mt-16" in:fly={sectionIn(220)}>
             <div class="max-w-5xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left">
                 <h2 class="text-2xl font-semibold heading-gradient">What can you contact us about?</h2>
 
@@ -125,7 +127,7 @@
             </div>
         </section>
 
-        <section class="mt-16">
+        <section class="mt-16" in:fly={sectionIn(280)}>
             <div class="max-w-5xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left">
                 <h2 class="text-2xl font-semibold heading-gradient">Social Media</h2>
                 <p class="mt-3 text-gray-300">
@@ -138,7 +140,7 @@
         </section>
 
         <!-- Footer CTA -->
-        <section class="mt-16 text-center">
+        <section class="mt-16 text-center" in:fly={sectionIn(320)}>
             <div class="max-w-5xl mx-auto rounded-xl bg-gray-900 p-10 shadow-lg">
                 <h2 class="text-3xl font-bold heading-gradient">Thanks for reaching out</h2>
                 <p class="mt-4 text-gray-300">

@@ -6,10 +6,15 @@
 	<meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
+<script lang="ts">
+	import { fly } from "svelte/transition";
+	import { sectionIn } from "$lib/motion";
+</script>
+
 <main class="background-color text-white">
 	<div class="mx-auto max-w-6xl px-6 py-16 text-center">
 		<!-- Hero -->
-		<section class="max-w-4xl mx-auto">
+		<section class="max-w-4xl mx-auto" in:fly={sectionIn(120)}>
 			<h1 class="text-6xl font-bold heading-gradient">Potential Sponsors</h1>
 
 			<p class="mt-6 text-lg text-gray-300">
@@ -35,7 +40,7 @@
 		</section>
 
 		<!-- Form placeholder -->
-		<section class="mt-16 max-w-5xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left">
+		<section class="mt-16 max-w-5xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left" in:fly={sectionIn(180)}>
 			<h2 class="text-2xl font-semibold heading-gradient">Sponsorship Form</h2>
 
 			<p class="mt-3 text-gray-300">
@@ -64,7 +69,7 @@
 		</section>
 
 		<!-- What sponsors receive -->
-		<section class="mt-16">
+		<section class="mt-16" in:fly={sectionIn(220)}>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
 				<div class="rounded-xl bg-gray-900 p-6 shadow-lg">
 					<h3 class="text-xl font-semibold heading-gradient">Recognition</h3>
@@ -90,7 +95,7 @@
 		</section>
 
 		<!-- FAQ -->
-		<section class="mt-16 max-w-5xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left">
+		<section class="mt-16 max-w-5xl mx-auto rounded-xl bg-gray-900 p-8 shadow-lg text-left" in:fly={sectionIn(280)}>
 			<h2 class="text-2xl font-semibold heading-gradient">Quick Questions</h2>
 
 			<div class="mt-6 space-y-6 text-gray-300">
@@ -118,7 +123,7 @@
 		</section>
 
 		<!-- CTA -->
-		<section class="mt-16 text-center">
+		<section class="mt-16 text-center" in:fly={sectionIn(320)}>
 			<div class="max-w-5xl mx-auto rounded-xl bg-gray-900 p-10 shadow-lg">
 				<h2 class="text-3xl font-bold heading-gradient">Ready to sponsor?</h2>
 				<p class="mt-4 text-gray-300">
