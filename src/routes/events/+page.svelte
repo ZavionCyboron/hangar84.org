@@ -1,14 +1,7 @@
-<svelte:head>
-    <title>Events | Hangar 84</title>
-    <meta content="Events | Hangar 84" property="og:title"/>
-    <meta content="Keep up to date with Hangar 84's events!" property="og:description"/>
-    <meta content="https://hangar84.org/events" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
-
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn, cardIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 
     type TeamEvent = {
         name: string;
@@ -61,6 +54,14 @@
         return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
     };
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/events'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color">
     <div class="mx-auto max-w-7xl px-6 py-16 text-center">

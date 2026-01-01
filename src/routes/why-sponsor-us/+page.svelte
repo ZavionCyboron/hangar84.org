@@ -1,15 +1,16 @@
-<svelte:head>
-    <title>Why Sponsor Us? | Hangar 84</title>
-    <meta content="Why Sponsor Us? | Hangar 84" property="og:title"/>
-    <meta content="Find out how your contribution supports STEM in our community." property="og:description"/>
-    <meta content="https://hangar84.org/why-sponsor-us" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
-
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/why-sponsor-us'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color">
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">
