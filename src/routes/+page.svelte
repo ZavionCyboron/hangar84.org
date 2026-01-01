@@ -15,7 +15,7 @@
         <div class="mx-auto max-w-6xl px-6 py-16 text-center">
             <!-- HERO -->
             <section class="text-center flex flex-col items-center" in:fly={sectionIn(120)}>
-                <h1 class="text-6xl leading-[1.4] font-extrabold heading-gradient">
+                <h1 class="text-6xl leading-[1.4] heading-gradient">
                     Hangar 84 Robotics
                 </h1>
 
