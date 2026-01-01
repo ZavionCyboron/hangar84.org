@@ -66,7 +66,7 @@
 
                     <div class="mt-8">
                         <a
-                                href="/sponsors/potential"
+                                href="/potential-sponsors"
                                 class="inline-block px-8 py-4 rounded-xl bg-green-500 text-black font-semibold hover:bg-green-400 transition"
                         >
                             Become a Sponsor →

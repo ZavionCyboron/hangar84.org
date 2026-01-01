@@ -26,7 +26,7 @@
             description:
               "Refreshing the team site with modern pages, consistent styling, and improved navigation.",
             tags: ["SvelteKit", "Tailwind"],
-            links: { github: "https://github.com/Hangar-84" }
+            links: { github: "https://github.com/Hangar-84/hangar84.org" }
         },
         {
             title: "CTRE Hardware Migration",

@@ -27,14 +27,14 @@
 
             <div class="mt-10 flex flex-wrap justify-center gap-4">
                 <a
-                        href="/sponsors/potential"
+                        href="/potential-sponsors"
                         class="inline-block px-8 py-4 rounded-xl bg-green-500 text-black font-semibold hover:bg-green-400 transition"
                 >
                     Become a Sponsor →
                 </a>
 
                 <a
-                        href="/sponsors/current"
+                        href="/current-sponsors"
                         class="inline-block px-8 py-4 rounded-xl bg-gray-800 text-white font-semibold hover:bg-gray-700 transition"
                 >
                     View Current Sponsors →

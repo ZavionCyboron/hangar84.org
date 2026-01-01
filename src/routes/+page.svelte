@@ -11,6 +11,7 @@
     <meta property="og:url" content={SITE.url + '/'} />
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
+
 <main class="background-color">
         <div class="mx-auto max-w-6xl px-6 py-16 text-center">
             <!-- HERO -->
@@ -37,7 +38,7 @@
                     </a>
 
                     <a
-                      href="https://github.com/Hangar84"
+                      href="https://github.com/Hangar-84"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="inline-block px-8 py-4 rounded-xl bg-gray-800 text-white font-semibold hover:bg-gray-700 transition"
