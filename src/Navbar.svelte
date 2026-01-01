@@ -60,9 +60,9 @@
                             <svg
                               class="dropdown-arrow h-4 w-4 transition-transform duration-200
                                                 {sponsorsActive ? 'rotate-180' : ''}"
-                              viewBox="0 0 24 24"
-                              fill="currentColor"
-                              aria-hidden="true"
+                                   viewBox="0 0 24 24"
+                                   fill="currentColor"
+                                   aria-hidden="true"
                             >
                                 <path d="M7.41 8.58 12 13.17l4.59-4.59L18 10l-6 6-6-6z"/>
                             </svg>
