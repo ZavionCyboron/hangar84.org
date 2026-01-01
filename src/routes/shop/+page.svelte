@@ -6,15 +6,110 @@
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
-<div class="flex flex-col items-center mt-8 mb-16">
-    <div class="shrink text-center flex flex-col space-y-4">
-        <h1 class="pb-3 text-6xl font-bold bg-gradient-to-r from-green-400 via-green-500 to-green-400 inline-block text-transparent bg-clip-text">
-            Shop
-        </h1>
-        <!-- TODO: if we have merchandise place our merchandise and pricing below. Include an image of the merchandise -->
-        <div class="pb-3 text-3xl">
-            <h1 class="pb-3 text-3xl">No current merchandise for sale.</h1>
-            <!--delete comment once we have merchandise <a href="https://docs.google.com/forms/d/1q88pjXzL34pmocLFPsKd-tj2eJ99LU8z-cfvkXXPAE8"><u style="text-decoration-color: blue;">Link to Shop</u></a>-->
-        </div>
+<main class="background-color text-white">
+    <div class="mx-auto max-w-6xl px-6 py-16 text-center">
+        <!-- Hero -->
+        <section class="max-w-4xl mx-auto">
+            <h1 class="block text-6xl leading-tight heading-gradient">Shop</h1>
+
+            <p class="mt-6 text-lg text-gray-300 max-w-3xl mx-auto">
+                Hangar 84 merch is coming soon. We’re finalizing our first public items and will announce them here.
+            </p>
+
+            <div class="mt-10 flex flex-wrap justify-center gap-4">
+                <a
+                        href="/connect"
+                        class="inline-block px-8 py-4 rounded-xl bg-green-500 text-black font-semibold hover:bg-green-400 transition"
+                >
+                    Get Updates →
+                </a>
+
+                <a
+                        href="mailto:hangar84robotics@gmail.com?subject=Hangar%2084%20Merch%20Inquiry"
+                        class="inline-block px-8 py-4 rounded-xl bg-gray-800 text-white font-semibold hover:bg-gray-700 transition"
+                >
+                    Ask About Merch →
+                </a>
+            </div>
+        </section>
+
+        <!-- Coming soon card -->
+        <section class="mt-16 max-w-5xl mx-auto text-left">
+            <div class="rounded-xl bg-gray-900 p-8 shadow-lg">
+                <div class="flex items-start justify-between gap-4">
+                    <h2 class="text-2xl font-semibold heading-gradient">Public Merch</h2>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full bg-gray-700 text-gray-200">
+            Coming soon
+          </span>
+                </div>
+
+                <p class="mt-4 text-gray-300">
+                    We don’t have public merch available yet, but we’re working on it. When it’s ready, we’ll announce it here
+                    and through our team updates.
+                </p>
+
+                <ul class="mt-6 space-y-2 text-gray-300 list-disc list-inside">
+                    <li>Items may include stickers, 3D prints/laser engravings, and other small merch</li>
+                    <li>All proceeds support robot parts, tools, and competition travel</li>
+
+                </ul>
+
+                <p class="mt-3 text-sm text-gray-400">
+                    Updates will be posted on this page and shared through our contact channel.
+                </p>
+            </div>
+        </section>
+
+        <!-- Ways to support -->
+        <section class="mt-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <div class="rounded-xl bg-gray-900 p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold heading-gradient">Support the Team</h3>
+                    <p class="mt-2 text-gray-300">
+                        Merch sales help fund parts, materials, tools, and event costs.
+                    </p>
+                </div>
+
+                <div class="rounded-xl bg-gray-900 p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold heading-gradient">Sponsorship</h3>
+                    <p class="mt-2 text-gray-300">
+                        Want to make a bigger impact? Sponsorships directly support students and the season.
+                    </p>
+                </div>
+
+                <div class="rounded-xl bg-gray-900 p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold heading-gradient">Stay In Touch</h3>
+                    <p class="mt-2 text-gray-300">
+                        We’ll post updates as soon as merch becomes available.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="mt-16 text-center">
+            <div class="max-w-5xl mx-auto rounded-xl bg-gray-900 p-10 shadow-lg">
+                <h2 class="text-3xl font-bold heading-gradient">Want first access?</h2>
+                <p class="mt-4 text-gray-300">
+                    Reach out and we’ll let you know when the first merch drop is ready.
+                </p>
+
+                <div class="mt-8 flex flex-wrap justify-center gap-4">
+                    <a
+                            href="/connect"
+                            class="inline-block px-8 py-4 rounded-xl bg-green-500 text-black font-semibold hover:bg-green-400 transition"
+                    >
+                        Connect →
+                    </a>
+
+                    <a
+                            href="/why-sponsor-us"
+                            class="inline-block px-8 py-4 rounded-xl bg-gray-800 text-white font-semibold hover:bg-gray-700 transition"
+                    >
+                        Sponsorship →
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
-</div>
+</main>
