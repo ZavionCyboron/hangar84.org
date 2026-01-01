@@ -40,8 +40,8 @@
                 {#if dir.sub == null && dir.link != null}
                     <li>
                         <a
-                                href={dir.link}
-                                class="nav-link {currentPath === normalize(dir.link) ? 'nav-active' : ''}"
+                          href={dir.link}
+                          class="nav-link {currentPath === normalize(dir.link) ? 'nav-active' : ''}"
                         >
                             {dir.name}
                         </a>
@@ -49,20 +49,20 @@
                 {:else if dir.sub != null}
                     <li class="dropdown dropdown-hover">
                         <a
-                                href="/why-sponsor-us"
-                                class="nav-link flex items-center gap-1"
-                                tabindex="0"
+                          href="/why-sponsor-us"
+                          class="nav-link flex items-center gap-1"
+                          tabindex="0"
                         >
                         <span class="{sponsorsActive ? 'navbar-gradient' : ''}">
                           Sponsors
                         </span>
 
                             <svg
-                                    class="dropdown-arrow h-4 w-4 transition-transform duration-200
+                              class="dropdown-arrow h-4 w-4 transition-transform duration-200
                                                 {sponsorsActive ? 'rotate-180' : ''}"
-                                    viewBox="0 0 24 24"
-                                    fill="currentColor"
-                                    aria-hidden="true"
+                                   viewBox="0 0 24 24"
+                                   fill="currentColor"
+                                   aria-hidden="true"
                             >
                                 <path d="M7.41 8.58 12 13.17l4.59-4.59L18 10l-6 6-6-6z"/>
                             </svg>
@@ -72,8 +72,8 @@
                             {#each dir.sub as sub}
                                 <li>
                                     <a
-                                            href={sub.link}
-                                            class="nav-link {currentPath === normalize(sub.link) ? 'nav-active' : ''}"
+                                      href={sub.link}
+                                      class="nav-link {currentPath === normalize(sub.link) ? 'nav-active' : ''}"
                                     >
                                         {sub.name}
                                     </a>
@@ -95,8 +95,8 @@
             {#if dir.sub == null && dir.link != null}
                 <li>
                     <a
-                            href={dir.link}
-                            class="nav-link {currentPath === normalize(dir.link) ? 'nav-active' : ''}"
+                      href={dir.link}
+                      class="nav-link {currentPath === normalize(dir.link) ? 'nav-active' : ''}"
                     >
                         {dir.name}
                     </a>
@@ -104,20 +104,20 @@
             {:else if dir.sub != null}
                 <li class="dropdown dropdown-hover">
                     <a
-                            href="/why-sponsor-us"
-                            class="nav-link flex items-center gap-1"
-                            tabindex="0"
+                      href="/why-sponsor-us"
+                      class="nav-link flex items-center gap-1"
+                      tabindex="0"
                     >
                         <span class="{sponsorsActive ? 'navbar-gradient' : ''}">
                           Sponsors
                         </span>
 
                         <svg
-                                class="dropdown-arrow h-4 w-4 transition-transform duration-200
+                          class="dropdown-arrow h-4 w-4 transition-transform duration-200
                                         {sponsorsActive ? 'rotate-180' : ''}"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                                aria-hidden="true"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
                         >
                             <path d="M7.41 8.58 12 13.17l4.59-4.59L18 10l-6 6-6-6z"/>
                         </svg>
@@ -127,8 +127,8 @@
                         {#each dir.sub as sub}
                             <li>
                                 <a
-                                        href={sub.link}
-                                        class="nav-link {currentPath === normalize(sub.link) ? 'nav-active' : ''}"
+                                  href={sub.link}
+                                  class="nav-link {currentPath === normalize(sub.link) ? 'nav-active' : ''}"
                                 >
                                     {sub.name}
                                 </a>
