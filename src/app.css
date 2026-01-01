@@ -15,4 +15,27 @@ html, body {
         @apply bg-gradient-to-r from-green-400 via-green-500 to-green-400
         text-transparent bg-clip-text font-bold;
     }
+    .navbar-gradient {
+        @apply bg-gradient-to-r from-green-500 via-green-600 to-green-500
+        text-transparent bg-clip-text font-bold;
+    }
+
+    .nav-active {
+        @apply navbar-gradient;
+    }
+
+    /* Arrow rotates when the dropdown is open */
+    .dropdown .dropdown-arrow {
+        transition: transform 180ms ease;
+    }
+
+    /* desktop: hover opens dropdown */
+    .dropdown-hover:hover .dropdown-arrow {
+        transform: rotate(180deg);
+    }
+
+    /* keyboard: focus opens dropdown */
+    .dropdown:focus-within .dropdown-arrow {
+        transform: rotate(180deg);
+    }
 }
