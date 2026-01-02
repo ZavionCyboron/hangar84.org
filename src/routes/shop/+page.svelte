@@ -43,7 +43,7 @@
         <section class="mt-16 max-w-5xl mx-auto text-left" in:fly={sectionIn(180)}>
             <div class="rounded-xl bg-gray-900 p-8 shadow-lg">
                 <div class="flex items-start justify-between gap-4">
-                    <h2 class="text-2xl font-semibold heading-gradient">Public Merch</h2>
+                    <h2 class="text-2xl font-semibold heading-gradient">Merch</h2>
                     <span class="text-xs font-semibold px-3 py-1 rounded-full bg-gray-700 text-gray-200">
             Coming soon
           </span>
