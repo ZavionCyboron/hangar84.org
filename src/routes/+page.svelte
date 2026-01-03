@@ -1,15 +1,16 @@
-<svelte:head>
-    <title>Home | Hangar 84</title>
-    <meta content="Home | Hangar 84" property="og:title"/>
-    <meta content="Official website for Hangar 84, FRC Team 7271" property="og:description"/>
-    <meta content="https://hangar84.org/" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
-
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color">
         <div class="mx-auto max-w-6xl px-6 py-16 text-center">
@@ -37,7 +38,7 @@
                     </a>
 
                     <a
-                      href="https://github.com/Hangar84"
+                      href="https://github.com/Hangar-84"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="inline-block px-8 py-4 rounded-xl bg-gray-800 text-white font-semibold hover:bg-gray-700 transition"
@@ -136,7 +137,7 @@
 
                 <div class="mt-6 flex flex-col sm:flex-row gap-4">
                     <a
-                      href="https://github.com/Hangar-84"
+                      href="https://github.com/Hangar-84/RobotMerge-Kt"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="inline-block px-6 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 transition font-semibold"

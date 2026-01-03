@@ -1,15 +1,18 @@
+<script lang="ts">
+    import { fly } from "svelte/transition";
+    import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
+</script>
+
 <svelte:head>
     <title>About | Hangar 84</title>
     <meta content="About | Hangar 84" property="og:title"/>
     <meta content="Information about Hangar 84 and our goals." property="og:description"/>
-    <meta content="https://hangar84.org/about" property="og:url"/>
+    <meta property="og:url" content={SITE.url + '/about'} />
     <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
 </svelte:head>
 
-<script lang="ts">
-    import { fly } from "svelte/transition";
-    import { sectionIn } from "$lib/motion";
-</script>
+
 <main class="background-color">
     <div class="flex flex-col items-center text-center mb-16">
         <div class="shrink text-center flex flex-col space-y-4">

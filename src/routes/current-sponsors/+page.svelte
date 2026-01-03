@@ -1,14 +1,16 @@
-<svelte:head>
-    <title>Current Sponsors | Hangar 84</title>
-    <meta content="Current Sponsors | Hangar 84" property="og:title"/>
-    <meta content="View the amazing sponsors who support Hangar 84's vision!" property="og:description"/>
-    <meta content="https://hangar84.org/current-sponsors" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/current-sponsors'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color">
     <div class="flex flex-col items-center mb-16">
@@ -64,7 +66,7 @@
 
                     <div class="mt-8">
                         <a
-                                href="/sponsors/potential"
+                                href="/potential-sponsors"
                                 class="inline-block px-8 py-4 rounded-xl bg-green-500 text-black font-semibold hover:bg-green-400 transition"
                         >
                             Become a Sponsor →

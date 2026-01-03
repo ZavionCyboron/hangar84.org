@@ -1,15 +1,16 @@
-<svelte:head>
-    <title>Shop | Hangar 84</title>
-    <meta content="Shop | Hangar 84" property="og:title"/>
-    <meta content="Support Hangar 84 via purchase of otherworldly merchandise!" property="og:description"/>
-    <meta content="https://hangar84.org/shop" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
-
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/shop'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color text-white">
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">
@@ -42,7 +43,7 @@
         <section class="mt-16 max-w-5xl mx-auto text-left" in:fly={sectionIn(180)}>
             <div class="rounded-xl bg-gray-900 p-8 shadow-lg">
                 <div class="flex items-start justify-between gap-4">
-                    <h2 class="text-2xl font-semibold heading-gradient">Public Merch</h2>
+                    <h2 class="text-2xl font-semibold heading-gradient">Merch</h2>
                     <span class="text-xs font-semibold px-3 py-1 rounded-full bg-gray-700 text-gray-200">
             Coming soon
           </span>

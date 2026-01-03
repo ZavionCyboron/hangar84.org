@@ -1,21 +1,14 @@
-<svelte:head>
-    <title>Projects | Hangar 84</title>
-    <meta content="Projects | Hangar 84" property="og:title"/>
-    <meta content="View current, upcoming, and completed projects for Hangar 84." property="og:description"/>
-    <meta content="https://hangar84.org/projects" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
-
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 
     const projects = [
         {
             title: "2025-Robot",
             status: "Completed",
             description:
-                "A 2025 robot codebase and framework designed around a MAXSwerve drivetrain, used to develop, test, and validate drivetrain control, configuration, and iteration workflows.",
+              "A 2025 robot codebase and framework designed around a MAXSwerve drivetrain, used to develop, test, and validate drivetrain control, configuration, and iteration workflows.",
             tags: ["MAXSwerve", "Drivetrain", "Electrical", "Testing"],
             links: { github: "https://github.com/Hangar-84/2025-Robot"}
         },
@@ -23,7 +16,7 @@
             title: "RobotMerge Framework",
             status: "Current",
             description:
-                "A hardware-agnostic robotics framework supporting MAXSwerve and mecanum with real + simulation parity.",
+              "A hardware-agnostic robotics framework supporting MAXSwerve and mecanum with real + simulation parity.",
             tags: ["Kotlin", "WPILib", "Simulation"],
             links: { github: "https://github.com/Hangar-84/RobotMerge-Kt" }
         },
@@ -31,15 +24,15 @@
             title: "Website Revamp",
             status: "Current",
             description:
-                "Refreshing the team site with modern pages, consistent styling, and improved navigation.",
+              "Refreshing the team site with modern pages, consistent styling, and improved navigation.",
             tags: ["SvelteKit", "Tailwind"],
-            links: { github: "https://github.com/Hangar-84" }
+            links: { github: "https://github.com/Hangar-84/hangar84.org" }
         },
         {
             title: "CTRE Hardware Migration",
             status: "Upcoming",
             description:
-                "Transitioning drivetrain and subsystem hardware from Rev to CTRE motor controllers and CAN-based sensors, including Talon FXS controllers and CANcoder encoders, to improve reliability, diagnostics, and closed-loop control.",
+              "Transitioning drivetrain and subsystem hardware from Rev to CTRE motor controllers and CAN-based sensors, including Talon FXS controllers and CANcoder encoders, to improve reliability, diagnostics, and closed-loop control.",
             tags: ["Hardware", "CTRE", "CAN Bus", "Controls"],
             links: {}
         }
@@ -51,6 +44,14 @@
     $: filteredProjects = projects.filter((p) => p.status === active);
 
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/projects'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color">
 

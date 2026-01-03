@@ -1,15 +1,16 @@
-<svelte:head>
-    <title>Connect | Hangar 84</title>
-    <meta content="Connect | Hangar 84" property="og:title"/>
-    <meta content="Keep in contact with Hangar 84 via social media and other methods!" property="og:description"/>
-    <meta content="https://hangar84.org/connect" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
-
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/connect'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color text-white">
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">

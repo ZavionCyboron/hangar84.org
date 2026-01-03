@@ -1,15 +1,16 @@
-<svelte:head>
-    <title>Why Sponsor Us? | Hangar 84</title>
-    <meta content="Why Sponsor Us? | Hangar 84" property="og:title"/>
-    <meta content="Find out how your contribution supports STEM in our community." property="og:description"/>
-    <meta content="https://hangar84.org/why-sponsor-us" property="og:url"/>
-    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
-</svelte:head>
-
 <script lang="ts">
     import { fly } from "svelte/transition";
     import { sectionIn } from "$lib/motion";
+    import { SITE } from '$lib/site';
 </script>
+
+<svelte:head>
+    <title>Blog | Hangar 84</title>
+    <meta content="Blog | Hangar 84" property="og:title"/>
+    <meta content="Enter: The Hangar 84 blog, uncovering the mysteries of robotics." property="og:description"/>
+    <meta property="og:url" content={SITE.url + '/why-sponsor-us'} />
+    <meta content="#32cd32" data-react-helmet="true" name="theme-color"/>
+</svelte:head>
 
 <main class="background-color">
     <div class="mx-auto max-w-6xl px-6 py-16 text-center">
@@ -26,14 +27,14 @@
 
             <div class="mt-10 flex flex-wrap justify-center gap-4">
                 <a
-                        href="/sponsors/potential"
+                        href="/potential-sponsors"
                         class="inline-block px-8 py-4 rounded-xl bg-green-500 text-black font-semibold hover:bg-green-400 transition"
                 >
                     Become a Sponsor →
                 </a>
 
                 <a
-                        href="/sponsors/current"
+                        href="/current-sponsors"
                         class="inline-block px-8 py-4 rounded-xl bg-gray-800 text-white font-semibold hover:bg-gray-700 transition"
                 >
                     View Current Sponsors →
